@@ -1,0 +1,18 @@
+{
+  "kit": "mpc-red",
+  "pages": [
+    {
+      "name": "MAIN",
+      "controls": [
+        { "param": "Attack", "widget": "fader", "polarity": "unipolar" },
+        { "param": "Release", "widget": "fader", "polarity": "unipolar" },
+        { "param": "Level", "widget": "fader", "polarity": "unipolar" },
+        { "param": "Amount", "widget": "fader", "polarity": "unipolar" },
+        { "param": "Offset", "widget": "fader", "polarity": "unipolar" },
+        { "param": "Mix", "widget": "fader", "polarity": "unipolar" },
+        { "param": "Smoothing", "widget": "fader", "polarity": "unipolar" },
+        { "param": "Bypass", "widget": "switch" }
+      ]
+    }
+  ]
+}

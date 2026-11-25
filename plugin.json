@@ -1,0 +1,27 @@
+{
+  "name": "EnvFollowerFX",
+  "manufacturer": "PETZOO",
+  "version": "1.0.9",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "PZvE",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Effect",
+  "file32": "VST/envfollowerfx-arm32.so",
+  "file64": "VST/envfollowerfx-arm64.so",
+  "description": "Left input modulates the right input, which is processed to dual-mono outputs; bypass preserves stereo input.",
+  "author": "PETZOO",
+  "url": "https://github.com/petzoospain/EnvFollowerFX",
+  "license": "MIT",
+  "parameters": [
+    { "name": "Attack", "type": "float", "min": 0.0, "max": 1.0, "default": 0.0, "unit": "ms", "steps": 0 },
+    { "name": "Release", "type": "float", "min": 0.0, "max": 1.0, "default": 0.14595506, "unit": "ms", "steps": 0 },
+    { "name": "Level", "type": "float", "min": 0.0, "max": 1.0, "default": 1.0, "unit": "dB", "steps": 0 },
+    { "name": "Amount", "type": "float", "min": 0.0, "max": 1.0, "default": 1.0, "unit": "", "steps": 0 },
+    { "name": "Offset", "type": "float", "min": 0.0, "max": 1.0, "default": 0.0, "unit": "", "steps": 0 },
+    { "name": "Mix", "type": "float", "min": 0.0, "max": 1.0, "default": 1.0, "unit": "%", "steps": 0 },
+    { "name": "Smoothing", "type": "float", "min": 0.0, "max": 1.0, "default": 0.0, "unit": "%", "steps": 0 },
+    { "name": "Bypass", "type": "bool", "default": false }
+  ]
+}
